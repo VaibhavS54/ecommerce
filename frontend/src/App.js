@@ -14,12 +14,13 @@ import CustomProductList from './components/custom/productlist';
 import OurPerspective from './components/perspective/Perspective';
 import DressProductList from './components/dress/productlist';
 import BlogProductList from './components/blog/productlist';
+import Review from './components/review/review';
 
 
 function App() {
   return (
     <div className="App">
-    <Dashboard/>
+    {/* <Dashboard/>
       <ProductList/>
       <Shop/>
       <PopularProductList/>
@@ -32,8 +33,8 @@ function App() {
       <Happy/>
       <Values/>
       <BlogProductList/>
-      <Footer/> 
-       
+      <Footer/>  */}
+       <Review/>
     </div>
   );
 }
