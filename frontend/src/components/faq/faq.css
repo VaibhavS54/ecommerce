@@ -21,6 +21,7 @@
     font-size: 1.5em;
     margin-bottom: 2cm;
     color: #333;
+    margin-left: 0.5cm;
   }
   
   .faqsection ul {
@@ -34,7 +35,6 @@
   }
   
   .faqcta {
-    text-align: center;
     font-size: 1.5em;
     margin-top: 2cm;
     color: #333;
@@ -45,4 +45,10 @@
   .faqcta h2{
    justify-content: center;
    margin-top: 2.5cm;
+   text-align: center;
+  }
+  .line{
+    margin-bottom: 25px;
+    border: none;
+    border-top: 2px solid black; 
   }

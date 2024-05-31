@@ -15,6 +15,10 @@ import OurPerspective from './components/perspective/Perspective';
 import DressProductList from './components/dress/productlist';
 import BlogProductList from './components/blog/productlist';
 import Review from './components/review/review';
+import PrivacyPolicy from './components/privacy/privacy';
+import ShippingPolicy from './components/shipping/shipping';
+import { Fab } from '@mui/material';
+import FAQ from './components/faq/faq';
 
 
 function App() {
@@ -34,7 +38,10 @@ function App() {
       <Values/>
       <BlogProductList/>
       <Footer/>  */}
-       <Review/>
+       {/* <Review/> */}
+       {/* <PrivacyPolicy/>
+       <ShippingPolicy/> */}
+       {/* <FAQ/>  */}
     </div>
   );
 }
