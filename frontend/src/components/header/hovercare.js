@@ -1,6 +1,6 @@
 import React from "react";
 import "./hover.css";
-import Handbags from '../../assets/handbag.png';
+import Photo from '../../assets/photo.png';
 
 
 const Bath = ['Bamboo Items','Face Wash','Soap'
@@ -84,8 +84,8 @@ const Caredrop = ({name,subname}) =>{
                     ))}
                 </div>
                 <div className="photo">
-                    <img className="pic" src={Handbags}></img>
-                    <img className="pic" src={Handbags}></img>
+                    <img className="pic" src={Photo}></img>
+                    <img className="pic" src={Photo}></img>
                 </div>
             </div>
         </>

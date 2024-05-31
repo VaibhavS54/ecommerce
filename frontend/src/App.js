@@ -24,7 +24,7 @@ import FAQ from './components/faq/faq';
 function App() {
   return (
     <div className="App">
-    {/* <Dashboard/>
+    <Dashboard/>
       <ProductList/>
       <Shop/>
       <PopularProductList/>
@@ -37,7 +37,7 @@ function App() {
       <Happy/>
       <Values/>
       <BlogProductList/>
-      <Footer/>  */}
+      <Footer/> 
        {/* <Review/> */}
        {/* <PrivacyPolicy/>
        <ShippingPolicy/> */}

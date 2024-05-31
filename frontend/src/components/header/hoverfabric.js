@@ -1,6 +1,6 @@
 import React from "react";
 import "./hover.css";
-import Handbags from '../../assets/handbag.png';
+import Photo from '../../assets/photo.png';
 
 
 const Cotton = ['Ajrakh','Bengal Cotton','Block Printed','Cotton Bandhani','Jamdani','Sambhalpuri Cotton'
@@ -84,8 +84,8 @@ const Fabricdrop = ({name,subname}) =>{
                     ))}
                 </div>
                 <div className="photo">
-                    <img className="pic" src={Handbags}></img>
-                    <img className="pic" src={Handbags}></img>
+                    <img className="pic" src={Photo}></img>
+                    <img className="pic" src={Photo}></img>
                 </div>
             </div>
         </>
