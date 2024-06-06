@@ -19,12 +19,13 @@ import PrivacyPolicy from './components/privacy/privacy';
 import ShippingPolicy from './components/shipping/shipping';
 import { Fab } from '@mui/material';
 import FAQ from './components/faq/faq';
+import CheckoutForm from './components/checkout/checkout';
 
 
 function App() {
   return (
     <div className="App">
-    <Dashboard/>
+    {/* <Dashboard/>
       <ProductList/>
       <Shop/>
       <PopularProductList/>
@@ -37,11 +38,12 @@ function App() {
       <Happy/>
       <Values/>
       <BlogProductList/>
-      <Footer/> 
+      <Footer/>  */}
        {/* <Review/> */}
        {/* <PrivacyPolicy/>
        <ShippingPolicy/> */}
        {/* <FAQ/>  */}
+       <CheckoutForm/>
     </div>
   );
 }
