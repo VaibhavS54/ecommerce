@@ -20,6 +20,7 @@ import ShippingPolicy from './components/shipping/shipping';
 import { Fab } from '@mui/material';
 import FAQ from './components/faq/faq';
 import CheckoutForm from './components/checkout/checkout';
+import ArticlePage from './components/blog1/blog1';
 
 
 function App() {
@@ -42,8 +43,9 @@ function App() {
        {/* <Review/> */}
        {/* <PrivacyPolicy/>
        <ShippingPolicy/> */}
-       {/* <FAQ/>  */}
-       <CheckoutForm/>
+       {/* <FAQ/>  */}         
+       {/* <CheckoutForm/> */}
+       <ArticlePage/>
     </div>
   );
 }
