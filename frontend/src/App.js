@@ -21,6 +21,8 @@ import { Fab } from '@mui/material';
 import FAQ from './components/faq/faq';
 import CheckoutForm from './components/checkout/checkout';
 import ArticlePage from './components/blog1/blog1';
+import MyAccount from './components/account/account';
+import Check from './components/check/check';
 
 
 function App() {
@@ -45,7 +47,9 @@ function App() {
        <ShippingPolicy/> */}
        {/* <FAQ/>  */}         
        {/* <CheckoutForm/> */}
-       <ArticlePage/>
+       {/* <ArticlePage/> */}
+       {/* <MyAccount/> */}
+       <Check/>
     </div>
   );
 }
