@@ -23,6 +23,7 @@ import CheckoutForm from './components/checkout/checkout';
 import ArticlePage from './components/blog1/blog1';
 import MyAccount from './components/account/account';
 import Check from './components/check/check';
+import ContactUs from './components/contactus/contact';
 
 
 function App() {
@@ -49,7 +50,8 @@ function App() {
        {/* <CheckoutForm/> */}
        {/* <ArticlePage/> */}
        {/* <MyAccount/> */}
-       <Check/>
+       {/* <Check/> */}
+       <ContactUs/>
     </div>
   );
 }

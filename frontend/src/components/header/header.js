@@ -95,10 +95,7 @@ function Dashboard() {
                             </div>
                         </div>
                     </div>
-
                 </div>
-
-
                 <div >
                     <img className="h-img" src={s3}></img>
                     <div className="img-2">

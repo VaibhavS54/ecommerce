@@ -96,7 +96,7 @@ const Womendrop = ({name,subname}) =>{
                     ))}
                     {sub.map((Apparel,key)=>(
                         <span key={key} className="subclass">{Apparel}</span>
-                    ))}
+                    ))} 
                     {last.map((Apparel,key)=>(
                         <span key={key}>{Apparel}</span>
                     ))}
