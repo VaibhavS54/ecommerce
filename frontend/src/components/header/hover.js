@@ -30,17 +30,16 @@ const Womendrop = ({name,subname}) =>{
             old_price:10,
             new_price:32,
             image:"hello",
-            category:{
+            category:{  
               maincategory:"Women",
               subcategories:"Apparel",
               lastcategories:"Kurta"
-            },
+            },  
             material:"cotton",
             available:"Yes",
             product_details:"Good Product",
             material_care:"Care"
-          
-    };
+    };                 
     const handle = async (props) =>{
         await fetch(`http://localhost:4000/addproduct`,{
             method:'POST',
