@@ -4,7 +4,7 @@ import Handbags from './components/handbag/handbags';
 import Shop from './components/shop_by_catagories/shop';
 import Footer from './components/footer/footer';
 import Values from './components/values/value';
-import Happy from './components/happy/happy';
+import HappyCustomer from './components/happy/happy';
 import ProductList from './components/latestproduct/productlist';
 import PopularProductList from './components/popularproduct/productlist';
 import Elegants from './components/elegants/elegant';
@@ -26,10 +26,11 @@ import Check from './components/check/check';
 import ContactUs from './components/contactus/contact';
 
 
+
 function App() {
   return (
     <div className="App">
-    {/* <Dashboard/>
+    <Dashboard/>
       <ProductList/>
       <Shop/>
       <PopularProductList/>
@@ -39,10 +40,10 @@ function App() {
       <DressProductList/>
       <Handbags/>
       <CustomProductList/>
-      <Happy/>
+      <HappyCustomer/>
       <Values/>
       <BlogProductList/>
-      <Footer/>  */}
+      <Footer/> 
        {/* <Review/> */}
        {/* <PrivacyPolicy/>
        <ShippingPolicy/> */}
@@ -51,7 +52,7 @@ function App() {
        {/* <ArticlePage/> */}
        {/* <MyAccount/> */}
        {/* <Check/> */}
-       <ContactUs/>
+       {/* <ContactUs/> */}
     </div>
   );
 }

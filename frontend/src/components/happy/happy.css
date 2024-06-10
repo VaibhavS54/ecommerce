@@ -1,62 +1,63 @@
-/* src/components/Testimonial.css */
-.testimonial-section {
-    text-align: center;
-    padding: 50px 20px;
-    margin-top: 75px;
-}
-
-.testimonial-section h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    color: #333;
-}
 
 .testimonial {
-    position: relative;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    width: 80%;
-    
-
-}
-
-.quote-icon {
-    position: absolute;
-    top: -20px;
-    left: 20px;
-    font-size: 4em;
-    color: #ff0000;
-    font-family: 'Georgia', serif;
-}
-
-.testimonial p {
-    font-size: 1.2em;
-    color: #555;
-    line-height: 1.6;
-    margin: 40px 20px 20px 20px;
-    position: relative;
-    z-index: 1;
-}
-
-.customer-profile {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    margin-top: 2cm;
+    width: 90%;
+  }
+  
+  .testimonial h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 0.6cm;
+  }
+  
+  .testimonial-content {
+   margin-left: 3.5cm;
+    max-width: 85%;
+    text-align: center;
+  }
+  
+  .quote-icon {
+    font-size: 40px;
+    color: red;
+  }
+  
+  .testimonial-text {
+    font-size: 18px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .testimonial-author {
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 1cm;
+    margin-top: 1cm;
+  }
+  
+  
+  .dots {
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-top: 20px;
-}
-
-.customer-profile img {
+    margin: 0 10px;
+    margin-left: 1.3cm;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
     border-radius: 50%;
-    width: 70px;
-    height: 70px;
-    margin-right: 10px;
-    margin-top: 20px;
-}
-
-.customer-name {
-    font-size: 1.9em;
-    color: #333;
-    align-items: center;
-    
-}
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: #717171;
+  }
+  

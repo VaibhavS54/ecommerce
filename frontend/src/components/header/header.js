@@ -74,7 +74,7 @@ function Dashboard() {
             <div className="flex flex-outer">
                 <div>
                     <div>
-                        <img src={s2}></img>
+                        <img src={s3}></img>
                         <div className="img-1">
                             <p>Beyond fashion,</p>
                             <p>Beyond ordinary</p>
