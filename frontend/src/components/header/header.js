@@ -43,9 +43,11 @@ function Dashboard() {
       };
       console.log(isHomeDropdownOpen)
     return (
-        <div className="dashboard">
+        <div className="dashboard"> 
             <br></br>
-            <center className="dash-head">EXTRA 15% OFF FOR FIRST TIME CUSTOMERS | T&C APPLY | CLICK TO COPY NEW15</center>
+            <center className="dash-head">
+               <div className="dash-text"> EXTRA 15% OFF FOR FIRST TIME CUSTOMERS | T&C APPLY | CLICK TO COPY NEW15</div>
+                </center>
             <div className="flex flex-dash">
                 <img src={logo} className="logo"></img>
                 <input className="textarea" type="text" placeholder="  Search for India's best products 🔍" ></input>

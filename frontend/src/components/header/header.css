@@ -1,9 +1,22 @@
 .dash-head{
     background-color: rgb(185, 28, 28);
     padding: 1rem 0 1rem 0;
-    color: #fff;
 }
-
+.dash-text {
+    animation: slide 12s linear infinite; 
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
 .flex{
     display: flex;
     align-items: center;
